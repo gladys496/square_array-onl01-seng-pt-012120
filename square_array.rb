@@ -1,3 +1,3 @@
 numbers = [1,2,3]
 
-numbers.each 
+numbers.each do |number| 
