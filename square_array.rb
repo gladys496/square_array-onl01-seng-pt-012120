@@ -1,5 +1,8 @@
-numbers = [1,2,3]
-
-numbers.each do |number| 
-  puts "This is my number now #{number}."
-end 
+def square_array(array)
+  squared_array = []
+  array.each do |num|
+    square = num ** 2
+    squared_array << square
+  end
+  squared_array
+end
