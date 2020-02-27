@@ -1,4 +1,5 @@
 numbers = [1,2,3]
 
 numbers.each do |number| 
-  puts "This is my "
+  puts "This is my number now #{number}."
+end 
